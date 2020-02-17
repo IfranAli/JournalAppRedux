@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_tags_primary">
+        <item
+            android:id="@+id/action_tag_filter_all"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="All Notes"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/action_tag_filter_unlabeled"
+            android:icon="@drawable/ic_label_outline_black_24dp"
+            android:title="Unlabeled"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/action_multi_tag_switch"
+            android:checkable="false"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Multi Tag Filter"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always" />
+    </group>
+
+    <group android:id="@+id/menu_tags_secondary">
+    </group>
+</menu>
